@@ -6,6 +6,10 @@ public class HelloWorld {
     System.out.println("Hello World!!");
   }
 
+  void world() {
+    System.out.println("This method is just added to create a difference");
+  }
+
   void notCovered() {
     System.out.println("This method is not covered by unit tests.");
   }
